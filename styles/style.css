@@ -8,7 +8,8 @@ div{
    display: grid;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bolder;
-   font-size: 150%;
+   font-size: 10vh;
+   word-wrap: break-word;
 }
 
 .wrapper{
