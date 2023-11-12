@@ -1,1 +1,1 @@
-console.log('działający skrypt')
+console.log('działający skrypt');
