@@ -1,0 +1,18 @@
+.wrapper{
+   grid-template-rows: 1fr;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 5px;
+
+   grid-auto-rows: minmax(auto, auto);
+   grid-auto-columns: minmax(auto, auto);
+
+   width: 100vw;
+   height: 100vh;
+}
+
+.contact{
+   grid-row: 1;
+   grid-column: 2 / 4;  
+
+   background-color: #4000bb;
+}

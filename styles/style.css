@@ -1,11 +1,14 @@
 body{
    padding: 0px;
    margin: 0px;
-   background-color: #303030;
+   background-color: #505050;
 }
 
 div{
-   display: grid
+   display: grid;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   font-size: 150%;
 }
 
 .wrapper{
@@ -28,15 +31,13 @@ div>div{
    border-width: 10px;
    border-style: solid;
 
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bolder;
-   font-size: 100px;
-   place-items: center;
+   align-items: center;
+   text-align: center;
 
    -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
-    transition: background-color 2s ease-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .cat1{
@@ -64,19 +65,32 @@ div>div{
 }
 
 .cat1:hover{
-   background-color: #2469ff80;
+   background-color: #2469ff70;
 }
 
 .cat2:hover{
-   background-color: #55ff6b80;
+   background-color: #55ff6b70;
 }
 
 .cat3:hover{
-   background-color: #ff3b3b80;
+   background-color: #ff3b3b70;
 }
 
 .cat4:hover{
-   background-color: #fffc5780;
+   background-color: #fffc5770;
+}
+
+
+.back{
+   grid-row: 1 / 2;
+   grid-column: 1 / 2;
+   
+   font-size: 40px;
+   background-color: #ff3737;
+}
+
+.back:hover{
+   background-color: #ff0000;
 }
 
 
