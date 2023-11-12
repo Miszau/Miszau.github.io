@@ -1,3 +1,26 @@
-h1{
-   background-color: red;
+div{
+   display:grid
 }
+
+.wrapper{
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.cat1{
+   background-color: rgb(#ff3340);
+}
+
+.cat2{
+   background-color: rgb(#33ff00);
+}
+
+.cat3{
+   background-color: rgb(#4033ff);
+}
+
+.cat4s{
+   background-color: rgb(#403300);
+}
+
