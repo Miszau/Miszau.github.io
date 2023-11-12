@@ -9,18 +9,26 @@ div{
 }
 
 .cat1{
+   grid-column: 1;
+   grid-row: 1;
    background-color: rgb(#ff3340);
 }
 
 .cat2{
+   grid-column: 2;
+   grid-row: 1;
    background-color: rgb(#33ff00);
 }
 
 .cat3{
+   grid-column: 1;
+   grid-row: 2;
    background-color: rgb(#4033ff);
 }
 
-.cat4s{
+.cat4{
+   grid-column: 2;
+   grid-row: 2;
    background-color: rgb(#403300);
 }
 
